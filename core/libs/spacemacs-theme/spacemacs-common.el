@@ -956,7 +956,10 @@ to 'auto, tags may not be properly aligned. "
      `(undo-tree-visualizer-current-face ((,class :foreground ,keyword)))
      `(undo-tree-visualizer-default-face ((,class :foreground ,base)))
      `(undo-tree-visualizer-register-face ((,class :foreground ,comp)))
-     `(undo-tree-visualizer-unmodified-face ((,class :foreground ,var))))
+     `(undo-tree-visualizer-unmodified-face ((,class :foreground ,var)))
+     `(tab-bar ((,class :foreground ,base-dim)))
+     `(tab-bar-tab ((,class :foreground ,base)))
+     `(tab-bar-tab-inactive ((,class :foreground ,base-dim))))
 
     (custom-theme-set-variables
      theme-name
